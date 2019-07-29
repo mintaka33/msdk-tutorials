@@ -18,7 +18,7 @@ LFLAGS=-L$(MFX_HOME)/lib -lmfx -lva -lva-drm -lpthread -lrt -ldl $(FFMPEG_LFLAGS
 
 $(EXEC): $(INCS) $(SRCS) Makefile
 	mkdir -p ../_build
-	g++ -o $(EXEC) $(SRCS) $(CFLAGS) $(LFLAGS)
+	g++ -O0 -g -o $(EXEC) $(SRCS) $(CFLAGS) $(LFLAGS)
 
 .PHONY: clean
 clean:
