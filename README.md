@@ -7,9 +7,9 @@ export MFX_HOME=/opt/intel/mediasdk
 cd mediasdk-tutorials-0.0.4
 make
 ```
-## Discreption
+## Description
 
-| Title  | Discreption  |
+| Title  | Description  |
 |---|---|
 |  Set Up |  **simple_1_session** <br> Establishes an Intel Media SDK session. Perform queries to determine selected implementation and the API version.<br> **simple_7_codec** <br> Checks the runtime codec support on the current platform and iterates all supported codes (on each codec) for configuring, querying, and reporting. |
 | Decode  | **simple_2_decode** <br> Transforms an AVC stream into a .yuv file using system memory surfaces, showcasing a simple synchronous decode pipeline flow. <br> **simple_2_decode_vmem** <br> Adds the ability to use video memory surfaces for improved decode performance. <br> **simple_2_decode_ffmpeg** <br> By integrating the demux function of FFmpeg, this sample decodes an AVC stream in the mp4 container into a .yuv file using system memory surfaces, showcasing a simple synchronous decode pipeline flow. <br> **simple_2_decode_hevc10** <br> Decodes a HEVC stream with 10-bit depth into a .yuv file using system memory surfaces, showcasing a simple synchronous decode pipeline flow. |
