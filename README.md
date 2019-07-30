@@ -1,5 +1,9 @@
 # msdk-tutorials
 
+## Intel Media SDK development tutorials:
+
+https://software.intel.com/en-us/intel-media-server-studio-support/training
+
 ## Build
 
 ```bash
